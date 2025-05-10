@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+
+.pattern-dots {
+  background-image: radial-gradient(#cbd5e0 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+.pattern-grid {
+  background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+    linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.pattern-zigzag {
+  background: 
+    linear-gradient(135deg, #f3f4f6 25%, transparent 25%) -10px 0,
+    linear-gradient(225deg, #f3f4f6 25%, transparent 25%) -10px 0,
+    linear-gradient(315deg, #f3f4f6 25%, transparent 25%),
+    linear-gradient(45deg, #f3f4f6 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-color: #e5e7eb;
+}
+
+
